@@ -14,8 +14,8 @@ namespace GhostscriptSharp
 
 		private static readonly string[] ARGS = new string[] {
 				// Keep gs from writing information to standard output
-                "-q",                     
-                "-dQUIET",
+                //"-q",                     
+                //"-dQUIET",
                
                 "-dPARANOIDSAFER",       // Run this command in safe mode
                 "-dBATCH",               // Keep gs from going into interactive mode
@@ -26,9 +26,9 @@ namespace GhostscriptSharp
                 
                 // Configure the output anti-aliasing, resolution, etc
                 "-dAlignToPixels=0",
-                "-dGridFitTT=0",
-                "-dTextAlphaBits=4",
-                "-dGraphicsAlphaBits=4"
+                "-dGridFitTT=0"//,
+                //"-dTextAlphaBits=4",
+                //"-dGraphicsAlphaBits=4"
 		};
 		#endregion
 
